@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress DeprecatedClassUsageInspection -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Mode par défaut">
+        <ListPreference
+            android:defaultValue="Normal"
+            android:entries="@array/mode_options"
+            android:entryValues="@array/mode_options"
+            android:key="mode_choice"
+            android:title="Choisir un mode par défaut"
+            android:summary="Choisir un mode par défaut à utiliser"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Changer le thème">
+
+        <ListPreference
+            android:defaultValue="Red"
+            android:entries="@array/theme_options"
+            android:entryValues="@array/theme_options"
+            android:key="color_choices"
+            android:title="Choisir une couleur pour le thème"
+            android:summary="Choisir une couleur de thème à utiliser"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

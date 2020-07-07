@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_options">
+        <item>Normal</item>
+        <item>Scientifique</item>
+    </string-array>
+    <string-array name="theme_options">
+        <item>Red</item>
+        <item>Blue</item>
+    </string-array>
+</resources>
